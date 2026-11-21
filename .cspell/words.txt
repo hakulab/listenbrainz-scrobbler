@@ -9,6 +9,7 @@ executescript
 fileset
 getuid
 hakula
+hakulab
 httpx
 isort
 listenbrainz
