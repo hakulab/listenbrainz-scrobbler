@@ -9,8 +9,8 @@ requires-python = ">=3.13"
 dependencies = ["httpx>=0.28.1", "keyring>=25.7.0"]
 
 [project.urls]
-Repository = "https://github.com/hakula139/listenbrainz-scrobbler"
-Issues = "https://github.com/hakula139/listenbrainz-scrobbler/issues"
+Repository = "https://github.com/hakulab/listenbrainz-scrobbler"
+Issues = "https://github.com/hakulab/listenbrainz-scrobbler/issues"
 
 [project.scripts]
 lb-scrobbler = "lb_scrobbler.cli:main"
