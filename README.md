@@ -1,10 +1,10 @@
 # listenbrainz-scrobbler
 
-[![CI](https://github.com/hakula139/listenbrainz-scrobbler/actions/workflows/ci.yml/badge.svg)](https://github.com/hakula139/listenbrainz-scrobbler/actions/workflows/ci.yml)
+[![CI](https://github.com/hakulab/listenbrainz-scrobbler/actions/workflows/ci.yml/badge.svg)](https://github.com/hakulab/listenbrainz-scrobbler/actions/workflows/ci.yml)
 [![Coverage](https://codecov.io/gh/hakula139/listenbrainz-scrobbler/graph/badge.svg)](https://codecov.io/gh/hakula139/listenbrainz-scrobbler)
 [![PyPI](https://img.shields.io/pypi/v/listenbrainz-scrobbler)](https://pypi.org/project/listenbrainz-scrobbler/)
 [![Python](https://img.shields.io/badge/python-3.13%2B-blue)](https://pypi.org/project/listenbrainz-scrobbler/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hakula139/listenbrainz-scrobbler/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hakulab/listenbrainz-scrobbler/blob/main/LICENSE)
 ![WakaTime coding time for listenbrainz-scrobbler](https://wakatime.com/badge/user/f4a35a1f-0e29-4093-a647-e66aad164737/project/d19a5c45-2aa5-4e45-98b7-5b65a239d070.svg)
 
 Automatically submit Apple Music listens on macOS to ListenBrainz, including streamed songs outside your library.
@@ -70,7 +70,7 @@ Polling cannot distinguish a natural repeat from manually seeking from the very 
 
 ## Nix / Home Manager
 
-Add a versioned flake input such as `github:hakula139/listenbrainz-scrobbler/v0.4.1`, then import the module in your Home Manager configuration:
+Add a versioned flake input such as `github:hakulab/listenbrainz-scrobbler/v0.4.1`, then import the module in your Home Manager configuration:
 
 ```nix
 imports = [ inputs.listenbrainz-scrobbler.homeModules.default ];
@@ -83,8 +83,8 @@ The LaunchAgent starts at login, when Music and the login Keychain are available
 
 ## Releases
 
-Releases follow the [versioning policy](https://github.com/hakula139/listenbrainz-scrobbler/blob/main/RELEASING.md#versioning), and the [changelog](https://github.com/hakula139/listenbrainz-scrobbler/blob/main/CHANGELOG.md) lists each release's changes. [GitHub releases](https://github.com/hakula139/listenbrainz-scrobbler/releases) also provide wheels, source archives, and checksums.
+Releases follow the [versioning policy](https://github.com/hakulab/listenbrainz-scrobbler/blob/main/RELEASING.md#versioning), and the [changelog](https://github.com/hakulab/listenbrainz-scrobbler/blob/main/CHANGELOG.md) lists each release's changes. [GitHub releases](https://github.com/hakulab/listenbrainz-scrobbler/releases) also provide wheels, source archives, and checksums.
 
 ## License
 
-Copyright (c) 2026 [Hakula](https://hakula.xyz). Licensed under the [MIT License](https://github.com/hakula139/listenbrainz-scrobbler/blob/main/LICENSE).
+Copyright (c) 2026 [Hakula](https://hakula.xyz). Licensed under the [MIT License](https://github.com/hakulab/listenbrainz-scrobbler/blob/main/LICENSE).
