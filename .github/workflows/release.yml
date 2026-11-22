@@ -45,7 +45,7 @@ jobs:
           fi
 
       - name: Wait for CI on the tagged commit
-        uses: hakula139/devkit/.github/actions/tagged-ci@v3
+        uses: hakulab/devkit/.github/actions/tagged-ci@v3
 
   publish:
     name: Publish GitHub Release
@@ -64,7 +64,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up Nix
-        uses: hakula139/devkit/.github/actions/setup-nix@v3
+        uses: hakulab/devkit/.github/actions/setup-nix@v3
         with:
           cachix_auth_token: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
@@ -83,7 +83,7 @@ jobs:
           echo "sdist=$sdist" >> "$GITHUB_OUTPUT"
 
       - name: Publish release
-        uses: hakula139/devkit/.github/actions/publish-release@v3
+        uses: hakulab/devkit/.github/actions/publish-release@v3
         with:
           assets: |
             dist/${{ steps.assets.outputs.wheel }}
