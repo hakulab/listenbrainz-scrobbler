@@ -1,6 +1,6 @@
 # Releasing
 
-Pushing a version tag runs the [Release workflow](.github/workflows/release.yml). It waits for CI on the tagged commit, publishes the tag's `CHANGELOG.md` section as a GitHub Release with the wheel, source archive, and `SHA256SUMS`, then uploads the same files to PyPI through Trusted Publishing. The [release skill](https://github.com/hakula139/plugins/blob/main/plugins/hakula-workflow/skills/release/SKILL.md) covers the shared procedure.
+Pushing a version tag runs the [Release workflow](.github/workflows/release.yml). It waits for CI on the tagged commit, publishes the tag's `CHANGELOG.md` section as a GitHub Release with the wheel, source archive, and `SHA256SUMS`, then uploads the same files to PyPI through Trusted Publishing. The [release skill](https://github.com/hakulab/plugins/blob/main/plugins/hakula-workflow/skills/release/SKILL.md) covers the shared procedure.
 
 ## Versioning
 
